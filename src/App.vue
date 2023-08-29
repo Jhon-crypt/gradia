@@ -1,5 +1,5 @@
 <script setup>
-import Header from './components/header/header.vue'
+import Head from './components/head/Head.vue'
 import HeaderHero from './components/hero/HeaderHero.vue'
 import FeatureHero from './components/hero/FeatureHero.vue';
 import FeaturesHero from './components/hero/FeaturesHeroTwo.vue'
@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer.vue'
 
 <template>
   <section class="overflow-hidden" style="background: url(https://shuffle.dev/gradia-assets/images/hero/bg.png) no-repeat; background-size: cover;">
-    <Header />
+    <Head />
     <HeaderHero />
   </section>
     <FeatureHero />
